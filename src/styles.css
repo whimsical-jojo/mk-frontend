@@ -1,3 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@layer theme, base, components, utilities;
 
 @import 'tailwindcss';
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+.nav-link {
+    @apply text-gray-700 px-3 py-2 box-content text-sm 
+    hover:text-purple-700
+    hover:cursor-pointer
+    font-medium
+    transition duration-300 ease-in-out
+    inline-block;
+}
+
+.html {
+    @apply bg-gray-100;
+    margin:auto;
+}
