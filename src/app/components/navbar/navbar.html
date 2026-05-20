@@ -4,7 +4,7 @@
         <strong class="text-2xl font-bold font-oswald px-2 text-purple-700">M.K.</strong>
 
         <!-- Hamburger button for mobile -->
-        <button class="md:hidden text-gray-700 hover:text-purple-700" (click)="toggleMenu()">
+        <button class="md:hidden text-gray-700 hover:text-purple-700 hover:cursor-pointer" (click)="toggleMenu()">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
@@ -18,7 +18,7 @@
         [class.opacity-100]="isMenuOpen()">
 
             <!-- Left Side: Navigation Links -->
-            <div class="flex flex-col md:flex-row items-center gap-2 md:w-auto">
+            <div class="flex flex-col md:flex-row items-center gap-2">
                 <a routerLink="/" routerLinkActive="text-purple-700" class="nav-link">Startseite</a>
                 <a routerLink="/termine" routerLinkActive="text-purple-700" class="nav-link">Termine</a>
                 <a routerLink="/publikationen" routerLinkActive="text-purple-700" class="nav-link">Publikationen</a>
@@ -27,7 +27,7 @@
             </div>
 
             <!-- Right Side: Social Media Icons thx Qwen for the svg -->
-            <div class="flex flex-col md:flex-row items-center md:w-auto">
+            <div class="flex flex-col md:flex-row items-center">
                 <a href="https://www.instagram.com/mkay.writer/" class="px-3 py-2">
                     <svg class="w-6 h-6 text-gray-600 inline-block hover:text-purple-600" fill="currentColor"
                         viewBox="0 0 24 24" aria-hidden="true">

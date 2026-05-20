@@ -16,7 +16,6 @@
     inline-block;
 }
 
-.html {
-    @apply bg-gray-100;
-    margin:auto;
+html {
+    @apply bg-purple-100;
 }
