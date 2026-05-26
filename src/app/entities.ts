@@ -7,3 +7,11 @@ interface Appointment {
     title: string;
     description?: string;
 }
+
+interface Book {
+    id?: number;
+    title: string;
+    details?: string;
+    description?: string;
+    imageUrl?: string;
+}

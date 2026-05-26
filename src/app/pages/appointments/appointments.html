@@ -1,9 +1,10 @@
-@for (appointment of appointments(); track appointment.id) {
-<div>
-    <p>{{ appointment.date }}</p>
-    <p>{{ appointment.time }}</p>
-    <h3>{{ appointment.title }}</h3>
-    <p>{{ appointment.location }}</p>
-    <p>{{ appointment.description }}</p>
-</div>
+<img src="/LogoAnarchien.avif" class="m-auto">
+<h1 class="text-2xl font-extrabold text-purple-800 py-2">Kommende Termine</h1>
+@for (appointment of futureAppointments(); track appointment.id) {
+<app-appointment-card [appointment]="appointment"></app-appointment-card>
+}
+
+<h1 class="text-2xl font-extrabold text-purple-800 py-2">Vergangene Termine</h1>
+@for (appointment of pastAppointments(); track appointment.id) {
+<app-appointment-card [appointment]="appointment"></app-appointment-card>
 }
