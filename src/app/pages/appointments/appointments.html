@@ -1,0 +1,9 @@
+@for (appointment of appointments(); track appointment.id) {
+<div>
+    <p>{{ appointment.date }}</p>
+    <p>{{ appointment.time }}</p>
+    <h3>{{ appointment.title }}</h3>
+    <p>{{ appointment.location }}</p>
+    <p>{{ appointment.description }}</p>
+</div>
+}
