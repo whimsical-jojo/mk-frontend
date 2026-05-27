@@ -2,11 +2,11 @@
     <!-- Upper part -->
     <div class="flex justify-between items-center mb-2">
         <time class="text-sm text-gray-500">{{ appointment().date | date: 'fullDate' }}</time>
-        <p class="text-sm text-gray-500">{{ appointment().time }}</p>
+        <p class="text-sm text-gray-700">{{ appointment().time }}</p>
     </div>
     <p class="text-gray-600">{{ appointment().location }}</p>
     <h2 class="text-purple-700 text-xl">{{ appointment().title }}</h2>
-    <p class="text-gray-600">{{ appointment().description }}</p>
+    <p class="text-gray-700">{{ appointment().description }}</p>
     @if (appointment().guests!.length > 0)
     {
     <p class="text-gray-600 text-sm">mit {{ appointment().guests }}</p>

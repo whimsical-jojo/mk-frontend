@@ -14,4 +14,20 @@ interface Book {
     details?: string;
     description?: string;
     imageUrl?: string;
+    links: Record<string, string>;
+}
+
+interface BibliographyItem {
+    id?: string;
+    year: number;
+    title: string;
+    type: string;
+    context: string;
+    url?: string; 
+}
+
+interface Reading {
+    id?: number;
+    title: string;
+    url: string;
 }
