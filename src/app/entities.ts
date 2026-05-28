@@ -1,5 +1,5 @@
 interface Appointment {
-    id?: number;
+    id: number;
     date: string;
     time: string;
     guests?: string[];
@@ -9,7 +9,7 @@ interface Appointment {
 }
 
 interface Book {
-    id?: number;
+    id: number;
     title: string;
     details?: string;
     description?: string;
@@ -18,7 +18,7 @@ interface Book {
 }
 
 interface BibliographyItem {
-    id?: string;
+    id: number;
     year: number;
     title: string;
     type: string;
@@ -27,7 +27,7 @@ interface BibliographyItem {
 }
 
 interface Reading {
-    id?: number;
+    id: number;
     title: string;
     url: string;
 }

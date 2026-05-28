@@ -1,4 +1,4 @@
-<img src="/LiteraturBuroBanner.jpg" alt="LiteraturBuroBanner">
+<img src="/LiteraturBuroBanner.jpg" alt="LiteraturBuroBanner" class="mx-auto">
 <div>
     <h1 class="text-2xl md:text-3xl font-extrabold mt-4 text-purple-800">
         Lesungen
@@ -9,7 +9,10 @@
 </div>
 <div class="md:grid md:grid-cols-2 gap-4 mt-8">
     @for(reading of readings(); track reading.id) {
-    <h1 class="text-xl font-semibold text-purple-700 mb-2">{{ reading.title }}</h1>
-    <iframe src="reading.url" class="w-full aspect-video shadow-md"></iframe>
+    <div class="flex flex-col justify-between shadow-md p-4">
+        <h1 class="text-md sm:text-lg lg:text-xl font-semibold text-purple-700 mb-2">{{ reading.title }}</h1>
+
+        <iframe [src]="reading.url" class="w-full aspect-video shadow-md"></iframe>
+    </div>
     }
 </div>
