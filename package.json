@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "prestart": "node -e \"const fs=require('fs'); const files=fs.readdirSync('./public/band').filter(f => /\\.(jpg|jpeg|png|webp|avif)$/i.test(f)); fs.writeFileSync('./public/band/images.json', JSON.stringify(files))\"",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",

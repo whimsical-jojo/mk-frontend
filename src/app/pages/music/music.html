@@ -1,0 +1,6 @@
+<div class="columns-*">
+    @for(image of images(); track image) {
+    <img [src]="'/band/' + image" class="mx-auto mb-4">
+    <p> {{ image }} </p>
+    }
+</div>

@@ -3,6 +3,7 @@ import { HomePage } from './pages/home-page/home-page';
 import { Appointments } from './pages/appointments/appointments';
 import { Publications } from './pages/publications/publications';
 import { Readings } from './pages/readings/readings';
+import { Music } from './pages/music/music';
 
 export const routes: Routes = [
     {
@@ -20,5 +21,13 @@ export const routes: Routes = [
     {
         path: 'lesungen',
         component: Readings
+    },
+    {
+        path: 'musik',
+        component: Music
+    },
+    {
+        path: '**',
+        redirectTo: ''
     }
 ];
