@@ -3,10 +3,6 @@
 
 @import 'tailwindcss';
 
-@import "tailwindcss/theme.css" layer(theme);
-@import "tailwindcss/preflight.css" layer(base);
-@import "tailwindcss/utilities.css" layer(utilities);
-
 .nav-link {
     @apply text-gray-700 px-1 lg:px-3 py-2 box-content text-sm 
     hover:text-purple-700

@@ -8,14 +8,14 @@ export class BibliographyService {
   http = inject(HttpClient);
   
   getBooks() {
-    return this.http.get<Book[]>('/data/books.json');
+    return this.http.get<Book[]>('./data/books.json');
   }
 
   getBibliography() {
-    return this.http.get<BibliographyItem[]>('/data/bibliography.json');
+    return this.http.get<BibliographyItem[]>('./data/bibliography.json');
   }
 
   getNewsArticles() {
-    return this.http.get<BibliographyItem[]>('/data/journalism.json');
+    return this.http.get<BibliographyItem[]>('./data/journalism.json');
   }
 }

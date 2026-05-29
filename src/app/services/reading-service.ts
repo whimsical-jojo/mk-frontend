@@ -8,6 +8,6 @@ export class ReadingService {
   http = inject(HttpClient);
   
   getReadings() {
-    return this.http.get<Reading[]>('/data/readings.json');
+    return this.http.get<Reading[]>('./data/readings.json');
   }
 }

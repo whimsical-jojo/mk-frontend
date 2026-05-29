@@ -8,6 +8,6 @@ export class BandGalleryService {
   http = inject(HttpClient);
   
   getBandImages() {
-    return this.http.get<string[]>('/band/images.json');
+    return this.http.get<string[]>('./band/images.json');
   }
 }

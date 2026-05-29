@@ -7,7 +7,7 @@
     "links": {
         "Zum Buch" : "https://leebooksshop.com/products/Star-Girl-Space-Boy-Vorbestellung-signiert-p700288415"
     },
-    "imageUrl": "/SGSB.png"
+    "imageUrl": "./SGSB.png"
   },
   {
     "id": 2,
@@ -19,6 +19,6 @@
       "Stream auf Spotify": "https://open.spotify.com/album/2pNf4xaVLbO74v1RFPdDpo?nd=1&dlsi=5fff69071e1d41d5",
       "Im Buchhandel und hier bestellbar": "https://buchshop.bod.de/school-of-chaos-m-kay-mashkour-9783756224401"
     },
-    "imageUrl": "/SchoolofChaos.webp"
+    "imageUrl": "./SchoolofChaos.webp"
   }
 ]
