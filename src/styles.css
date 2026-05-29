@@ -3,6 +3,13 @@
 
 @import 'tailwindcss';
 
+@theme{
+  --font-mono: 'Hack', monospace;
+  --font-sans: 'Comic Sans MS', cursive, sans-serif;
+
+  --font-oswald: 'Oswald', sans-serif;
+}
+
 .nav-link {
     @apply text-gray-700 px-1 lg:px-3 py-2 box-content text-sm 
     hover:text-purple-700
