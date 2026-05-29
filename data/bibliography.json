@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "year": 2025,
+    "title": "Das Nachtfalterglas",
+    "type": "Kurzgeschichte",
+    "context": "auf der Literaturkarte Rheinland, Düsseldorf",
+    "url": "https://www.literatur-rheinland.de/literaturkarte"
+  },
+  {
+    "id": 2,
+    "year": 2024,
+    "title": "Star Girl Space Boy",
+    "type": "Roman",
+    "context": "im LeeBooks Verlag, Heilbronn",
+    "url": ""
+  },
+  {
+    "id": 3,
+    "year": 2024,
+    "title": "Arrivist",
+    "type": "Auszug",
+    "context": "aus dem Romanmanuskript im Absolut Zine #8, Aachen",
+    "url": "https://www.absolut-zine.com/post/arrivist-ein-auszug"
+  },
+  {
+    "id": 4,
+    "year": 2023,
+    "title": "School of Chaos",
+    "type": "Hörbuch",
+    "context": "gelesen von Lilith Maxion, Spotify, Berlin",
+    "url": ""
+  },
+  {
+    "id": 5,
+    "year": 2022,
+    "title": "Danzig Main Station, Disco Love und The Guy wearing Makeup at the Office",
+    "type": "Songtexte",
+    "context": "in Otherwise Engaged. Literature and Arts Journal, Vol. 10, Hrsg. Marzia Dessi, ISBN-13 979-8843360306",
+    "url": ""
+  },
+  {
+    "id": 6,
+    "year": 2020,
+    "title": "Kalk Post",
+    "type": "Liedtext / Gedicht",
+    "context": "in der Anthologie Kalk Alphabet, Texte über Köln-Kalk, Parasitenpresse, Hrsg. Jonas Linnebank, Köln",
+    "url": ""
+  },
+  {
+    "id": 7,
+    "year": 2019,
+    "title": "Star Girl Space Boy",
+    "type": "Auszug",
+    "context": "Kölner Literaturzeitschrift Kliteratur #3, Köln",
+    "url": ""
+  },
+  {
+    "id": 8,
+    "year": 2015,
+    "title": "Als ich ein Kobold war",
+    "type": "Kurzgeschichte",
+    "context": "in der Anthologie Landpartie 15. Mit einem Vorwort von Jo Lendle, Herausg. Christian Schärf, Zu Klampen Verlag, Hildesheim, ISBN-13 9783866745070",
+    "url": ""
+  },
+  {
+    "id": 9,
+    "year": 2014,
+    "title": "Von Gedanken beflügelter Schädel",
+    "type": "Literarische Reportage",
+    "context": "in Diapositive, Anthologie des Studiengangs Kreatives Schreiben und Kulturjournalismus, Edition Paechterhaus, Hildesheim, ISBN 9783000463952",
+    "url": ""
+  }
+]

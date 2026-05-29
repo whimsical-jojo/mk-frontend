@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "date": "2026-03-19",
+    "time": "All Day",
+    "guests": ["LeeBooks-Verlagsteam"],
+    "location": "Leipziger Buchmesse, Halle 3, Stand B507",
+    "title": "Leipziger Buchmesse",
+    "description": "Mit dem Buch 'Star Girl Space Boy'"
+  },
+  {
+    "id": 2,
+    "date": "2026-03-20",
+    "time": "All Day",
+    "guests": ["LeeBooks-Verlagsteam"],
+    "location": "Leipziger Buchmesse, Halle 3, Stand B507",
+    "title": "Leipziger Buchmesse",
+    "description": "Mit dem Buch 'Star Girl Space Boy'"
+  },
+  {
+    "id": 3,
+    "date": "2026-03-21",
+    "time": "All Day",
+    "guests": ["LeeBooks-Verlagsteam"],
+    "location": "Leipziger Buchmesse, Halle 3, Stand B507",
+    "title": "Leipziger Buchmesse",
+    "description": "Mit dem Buch 'Star Girl Space Boy'"
+  },
+  {
+    "id": 4,
+    "date": "2026-03-22",
+    "time": "All Day",
+    "guests": ["LeeBooks-Verlagsteam"],
+    "location": "Leipziger Buchmesse, Halle 3, Stand B507",
+    "title": "Leipziger Buchmesse",
+    "description": "Mit dem Buch 'Star Girl Space Boy'"
+  },
+  {
+    "id": 5,
+    "date": "2026-03-22",
+    "time": "15:00",
+    "guests": ["Sanjina Kashikar"],
+    "location": "Laden auf Zeit, Leipzig",
+    "title": "Lesung"
+  },
+  {
+    "id": 6,
+    "date": "2026-03-28",
+    "time": "19:00",
+    "guests": ["Christian von Aster"],
+    "location": "Büchel-Museum, Aachen",
+    "title": "Anarchien-Lesereihe"
+  },
+  {
+    "id": 7,
+    "date": "2026-03-29",
+    "time": "18:00",
+    "guests": [
+      "Christian von Aster",
+      "Sanjina Kashikar",
+      "Mirjam Kay Mashkour"
+    ],
+    "location": "Grotesque Absinthbar, Aachen",
+    "title": "Absinth & Absurdes",
+    "description": "Einlass: 17 Uhr"
+  },
+  {
+    "id": 8,
+    "date": "2026-04-25",
+    "time": "19:00",
+    "guests": ["Judith Vogt", "Susann Loevenich"],
+    "location": "Vers Literaturcafé, Aachen",
+    "title": "Anarchien-Lesereihe"
+  },
+  {
+    "id": 9,
+    "date": "2026-04-26",
+    "time": "19:00",
+    "guests": ["Ensemble", "Widersetzen Aachen"],
+    "location": "Theater Aachen, Spiegelfoyer",
+    "title": "Nachgespräch: 2044. Chronik der Zukunft",
+    "description": "Über das Theaterstück »2044. Chronik der Zukunft« und politischen Aktivismus"
+  },
+  {
+    "id": 10,
+    "date": "2026-05-30",
+    "time": "19:00",
+    "guests": ["Samira Servos", "Jan Off"],
+    "location": "Vers Literaturcafé, Aachen",
+    "title": "Anarchien-Lesereihe"
+  },
+  {
+    "id": 11,
+    "date": "2026-06-05",
+    "time": "TBA",
+    "guests": [],
+    "location": "Münster",
+    "title": "Queerslam"
+  },
+  {
+    "id": 12,
+    "date": "2026-06-27",
+    "time": "19:00",
+    "guests": ["Thea Mantwill", "Ulrike Serowy"],
+    "location": "Vers Literaturcafé, Aachen",
+    "title": "Anarchien-Lesereihe"
+  },
+  {
+    "id": 13,
+    "date": "2026-07-24",
+    "time": "TBA",
+    "guests": [],
+    "location": "Lousberg, Aachen",
+    "title": "Anarchien auf dem Lousberg",
+    "description": "Im Rahmen des Literaturfestivals Leselust auf dem Lousberg"
+  },
+  {
+    "id": 14,
+    "date": "2026-09-26",
+    "time": "19:00",
+    "guests": ["Birte Stolte"],
+    "location": "Vers Literaturcafé, Aachen",
+    "title": "Anarchien-Lesereihe"
+  },
+  {
+    "id": 15,
+    "date": "2026-10-24",
+    "time": "TBA",
+    "guests": [],
+    "location": "Literaturcafé, Aachen",
+    "title": "Anarchien X PussPoetry",
+    "description": "Poesie auf Englisch, Deutsch & Niederländisch"
+  }
+]

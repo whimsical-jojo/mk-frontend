@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "year": 2025,
+    "title": "Vom Wohnungsmarkt zur Stadtgesellschaft",
+    "type": "Interview",
+    "context": "Aktivisten der Initiative Recht auf Stadt im Interview. Wochenzeitung Wirklich Aachen, 1. Ausgabe",
+    "url": ""
+  },
+  {
+    "id": 2,
+    "year": 2024,
+    "title": "Das kann ich auch",
+    "type": "Kolumne",
+    "context": "Eine Kolumne über Kunst, Können und Neid. Literatur-Rheinland.de/magazin",
+    "url": "https://www.literatur-rheinland.de/magazin"
+  },
+  {
+    "id": 3,
+    "year": 2022,
+    "title": "Besetzung eines Klosters in Aachen",
+    "type": "Artikel (Co-Autorin)",
+    "context": "Autonomie oder Bürokratie im Kloster: Wie es im zweiten Jahr der Besetzung weitergeht, liegt an den Aktivist*innen. Tacheles, Ausgabe 9, November",
+    "url": ""
+  },
+  {
+    "id": 4,
+    "year": 2019,
+    "title": "Pressefreiheit in Zeiten des Flüchtlingsdeals",
+    "type": "Buchrezension und Artikel",
+    "context": "Deniz Yücel auf der Lit.Cologne 2019. Kölnische Rundschau / Bonner Rundschau",
+    "url": ""
+  },
+  {
+    "id": 5,
+    "year": 2017,
+    "title": "Chic im Exil",
+    "type": "Artikel",
+    "context": "Über Fetischmode-Design aus Iran. Der Freitag, Ausgabe 35/2017",
+    "url": ""
+  },
+  {
+    "id": 6,
+    "year": 2016,
+    "title": "Nichts zu verbergen",
+    "type": "Artikel",
+    "context": "Über Predictive Policing und Big Data. Der Freitag, Ausgabe 46/2016",
+    "url": ""
+  },
+  {
+    "id": 7,
+    "year": 2015,
+    "title": "Der Rat der alten Männer",
+    "type": "Kolumne / Kommentar",
+    "context": "Über alte Autoren, die der jungen AutorInnengeneration gut gemeinte Tipps geben. Hannoversche Allgemeine Zeitung",
+    "url": ""
+  }
+]

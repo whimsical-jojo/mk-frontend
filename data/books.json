@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "Star Girl Space Boy",
+    "details": "Roman, LeeBooks Verlag, Okt./Nov. 2024\nE-Book und Print, mit Illustrationen von Kristina Labs\n400 Seiten, Einzelband, Sci-Fi\nLimitierte Black Edition: schwarze Seiten, weißer Text, wie dark mode auf dem Handybildschirm\nDie Black Edition ist ausverkauft.\nEine Neuauflage des Romans erscheint 2026.",
+    "description": "Cyberpunk oder schon dystopische Gegenwart?\n\nCoffee to run. Tod durch Überarbeitung. Abschaffung von allem, was keinen Profit generiert. Der Roman Star Girl Space Boy zeichnet das Bild einer Gesellschaft, die technologisch weit fortgeschritten, doch emotional verkümmert ist. Das Glamourpaar der Staatenunion: Rockstar Jean Rodenberry und Astrobiologe Thomas Victor Major. Für ihre kühnen Visionen und größenwahnsinnigen Bestreben gehen beide über Leichen. Schließlich stehen sie sich gegenseitig im Wege und der Absturz ist – buchstäblich – vorprogrammiert.",
+    "links": {
+        "Zum Buch" : "https://leebooksshop.com/products/Star-Girl-Space-Boy-Vorbestellung-signiert-p700288415"
+    },
+    "imageUrl": "/SGSB.png"
+  },
+  {
+    "id": 2,
+    "title": "School of Chaos – das Hörbuch / die Novelle",
+    "details": "gelesen von Lilith Maxion\nBerlin 2023, ca. 100 Minuten\nSchool of Chaos – ein groteskes Abenteuer (Novelle)\n60 Seiten, 2022 im Selbstverlag publiziert\nJugendbuch, empfohlen ab 12 Jahren",
+    "description": "",
+    "links": {
+      "Hörprobe und MP3-Download": "https://www.xinxii.com/belletristik-982/humor-satire-991/school-of-chaos-522771",
+      "Stream auf Spotify": "https://open.spotify.com/album/2pNf4xaVLbO74v1RFPdDpo?nd=1&dlsi=5fff69071e1d41d5",
+      "Im Buchhandel und hier bestellbar": "https://buchshop.bod.de/school-of-chaos-m-kay-mashkour-9783756224401"
+    },
+    "imageUrl": "/SchoolofChaos.webp"
+  }
+]
