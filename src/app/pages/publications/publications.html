@@ -13,7 +13,7 @@
         <h2 class="text-lg font-semibold">{{ item.title }} ({{ item.year }})</h2>
         <p class="text-sm text-gray-600">{{ item.type }} - {{ item.context }}</p>
         @if(item.url) {
-        <a [href]="item.url" class="text-purple-600 hover:underline text-sm" target="_blank" rel="noopener noreferrer">
+        <a [href]="item.url" class="text-gray-700 hover:text-purple-700 hover:cursor-pointer transition duration-300 ease-in-out" target="_blank" rel="noopener noreferrer">
             Zum Artikel
         </a>
         }
@@ -29,7 +29,7 @@
         <h2 class="text-lg font-semibold">{{ item.title }} ({{ item.year }})</h2>
         <p class="text-sm text-gray-600">{{ item.type }} - {{ item.context }}</p>
         @if(item.url) {
-        <a [href]="item.url" class="text-purple-600 hover:underline text-sm" target="_blank" rel="noopener noreferrer">
+        <a [href]="item.url" class="text-gray-700 hover:text-purple-700 hover:cursor-pointer transition duration-300 ease-in-out" target="_blank" rel="noopener noreferrer">
             Zum Artikel
         </a>
         }
