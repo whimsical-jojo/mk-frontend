@@ -11,14 +11,14 @@
         </button>
 
         <div class="flex flex-col md:flex-row md:contents md:items-center gap-4 overflow-hidden w-full md:w-auto
-        transition-all duration-300 ease-in-out" 
+        transition-all duration-600 ease-in-out" 
         [class.max-h-0]="!isMenuOpen()"
         [class.opacity-0]="!isMenuOpen()"
         [class.max-h-96]="isMenuOpen()"
         [class.opacity-100]="isMenuOpen()">
 
             <!-- Left Side: Navigation Links -->
-            <div class="flex flex-col md:flex-row items-center gap-2">
+            <div (click)="toggleMenu()" class="flex flex-col md:flex-row items-center gap-2">
                 <a routerLink="/" routerLinkActive="!text-purple-700" [routerLinkActiveOptions]="{ exact: true }" class="nav-link">Vita</a>
                 <a routerLink="/termine" routerLinkActive="!text-purple-700" class="nav-link">Termine</a>
                 <a routerLink="/publikationen" routerLinkActive="!text-purple-700" class="nav-link">Publikationen</a>

@@ -10,6 +10,8 @@
         class="text-gray-300 text-sm hover:text-white hover:cursor-pointer text-center block mx-auto">Impressum &
         Datenschutz</button>
 
+    <!-- BIG Modal-->
+    <!-- Todo see if there's some way I can lazy load this because most people won't read it-->
     @if(isModalOpen()) {
     <div class="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50" 
         (click)="closeModal()">
