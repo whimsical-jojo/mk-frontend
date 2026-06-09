@@ -1,5 +1,10 @@
-<h1 class="text-2xl md:text-3xl font-extrabold mt-8 text-purple-800 py-2">Musik Projekt "Work Ethic"</h1>
-<p class="text-gray-700 text-sm md:text-base lg:text-lg mt-4 mb-8 px-5 clear-left">
+<h1 class="text-2xl md:text-3xl font-extrabold text-purple-800 py-2 md:my-8">Musik Projekt "Work Ethic"</h1>
+<div class="mx-auto columns md:columns-2 lg:columns-3 xl:columns-4 gap-4">
+    @for(image of images(); track image) {
+    <img [src]="'./band/' + image" class="mb-4 shadow-md aspect-auto p-2 mx-auto object-cover flex flex-1">
+    }
+</div>
+<p class="text-gray-700 text-sm md:text-base lg:text-lg mt-4 mb-8 md:mt-8 px-5 clear-left">
     Technische Probleme ist eine vierköpfige Punkband aus Aachen. Gitarrist Panik Vogel und Autorin Mkay gründeten die
     Band während einer Hausbesetzung und gaben dort auch
     gleich ihr erstes Konzert, powered by gerade noch ausreichender Solarstrom-Batterie. Bandmitglied Katfish legte eine
@@ -21,10 +26,3 @@
         <p>Zum Instagram-Profil</p>
     </a>
 </p>
-
-<h1 class="text-2xl md:text-3xl font-extrabold mt-8 text-purple-800 py-2">Gallerie</h1>
-<div class="mx-auto columns md:columns-2 lg:columns-3 xl:columns-4 gap-4">
-    @for(image of images(); track image) {
-    <img [src]="'./band/' + image" class="mb-4 shadow-md aspect-auto p-2 mx-auto object-cover flex flex-1">
-    }
-</div>

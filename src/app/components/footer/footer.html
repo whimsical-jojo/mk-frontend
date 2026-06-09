@@ -1,14 +1,19 @@
 <div class="font-mono bg-purple-950 bg-blend-lighten mt-8 pb-12">
+    <button (click)="openModal()"
+        class="text-gray-300 text-sm hover:text-white hover:cursor-pointer underline text-center block mx-auto py-4">Impressum &
+        Datenschutz</button>
+
     <p class="text-center text-gray-300 text-sm py-4">
         &copy; Mirjam Kay Mashkour 2026
         <br>
         <br>
         Kontakt: mirjam.kay[at]pm.me
+        <br>
+        <br>
+        Web Design and Programming: Jojo de Andrade Rocha
+        <br>
+        Github: <a href="https://github.com/whimsical-jojo" class="text-gray-300 underline hover:text-white hover:pointer-cursor" target="_blank" rel="noopener noreferrer">whimsical-jojo</a>
     </p>
-
-    <button (click)="openModal()"
-        class="text-gray-300 text-sm hover:text-white hover:cursor-pointer text-center block mx-auto">Impressum &
-        Datenschutz</button>
 
     <!-- BIG Modal-->
     <!-- Todo see if there's some way I can lazy load this because most people won't read it-->
