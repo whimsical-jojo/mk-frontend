@@ -3,7 +3,7 @@
     <!-- Image first so it's on the top/ left-->
     <img class="w-full h-full object-contain max-h-100 mx-auto" [src]="book().imageUrl" [alt]="book().title">
     <h1 class="text-2xl text-black mt-4">{{ book().title }}</h1>
-    <p class="text-sm text-gray-600">{{ book().details }}</p>
+    <p class="text-sm text-gray-600 max-md:hidden">{{ book().details }}</p>
     <p [class.line-clamp-2]="!isOpen()" class="text-gray-700 transition-all duration-300">
         {{ book().description }}
     </p>
