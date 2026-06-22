@@ -1,5 +1,8 @@
-import { DatePipe } from '@angular/common';
+import { DatePipe, registerLocaleData } from '@angular/common';
 import { Component, input } from '@angular/core';
+import localeDe from '@angular/common/locales/de';
+
+registerLocaleData(localeDe, 'de');
 
 @Component({
   selector: 'app-appointment-card',

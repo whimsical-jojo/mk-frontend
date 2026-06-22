@@ -2,7 +2,7 @@
   {
     "id": 1,
     "date": "2026-03-19",
-    "time": "All Day",
+    "time": "Ganztägig",
     "guests": ["LeeBooks-Verlagsteam"],
     "location": "Leipziger Buchmesse, Halle 3, Stand B507",
     "title": "Leipziger Buchmesse",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "date": "2026-03-20",
-    "time": "All Day",
+    "time": "Ganztägig",
     "guests": ["LeeBooks-Verlagsteam"],
     "location": "Leipziger Buchmesse, Halle 3, Stand B507",
     "title": "Leipziger Buchmesse",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "date": "2026-03-21",
-    "time": "All Day",
+    "time": "Ganztägig",
     "guests": ["LeeBooks-Verlagsteam"],
     "location": "Leipziger Buchmesse, Halle 3, Stand B507",
     "title": "Leipziger Buchmesse",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "date": "2026-03-22",
-    "time": "All Day",
+    "time": "Ganztägig",
     "guests": ["LeeBooks-Verlagsteam"],
     "location": "Leipziger Buchmesse, Halle 3, Stand B507",
     "title": "Leipziger Buchmesse",
@@ -130,5 +130,14 @@
     "location": "Literaturcafé, Aachen",
     "title": "Anarchien X PussPoetry",
     "description": "Poesie auf Englisch, Deutsch & Niederländisch"
+  },
+  {
+    "id":16,
+    "date": "2026-07-12",
+    "time": "18:00",
+    "guests": [],
+    "location": "Trink-Genossin, Subbelrather Str.254, Köln-Ehrenfeld",
+    "title": "Fotoaustellung \"Literarische Portraits\"",
+    "description":"Vernissage mit Lesungen (u.a. aus dem Romanprojeckt \"Arrivist\")"
   }
 ]

@@ -1,7 +1,7 @@
 <div class="py-4 px-6 shadow-md m-2">
     <!-- Upper part -->
     <div class="flex justify-between items-center mb-2">
-        <time class="text-sm text-gray-500">{{ appointment().date | date: 'fullDate' }}</time>
+        <time class="text-sm text-gray-500">{{ appointment().date | date: 'fullDate' : '' : 'de' }}</time>
         <p class="text-sm text-gray-700">{{ appointment().time }}</p>
     </div>
     <p class="text-gray-600">{{ appointment().location }}</p>
