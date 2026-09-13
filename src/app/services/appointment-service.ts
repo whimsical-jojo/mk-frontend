@@ -1,13 +1,13 @@
-import { HttpClient } from '@angular/common/http';
-import { inject, Injectable } from '@angular/core';
+import { Injectable } from '@angular/core';
+import { fetchCollection } from '../utils/firebase-utils';
+import { from, Observable } from 'rxjs';
+import { db } from '../../firebase';
 
 @Injectable({
   providedIn: 'root',
 })
 export class AppointmentService {
-  http = inject(HttpClient);
-
-  getAppointments() {
-    return this.http.get<Appointment[]>('./data/appointments.json');
+  getAppointments(): Observable<Appointment[]> {
+    return from(fetchCollection<Appointment>(db, 'appointments'));
   }
 }

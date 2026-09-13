@@ -1,13 +1,13 @@
-import { HttpClient } from '@angular/common/http';
-import { inject, Injectable } from '@angular/core';
+import { Injectable } from '@angular/core';
+import { Observable, of } from 'rxjs';
+import * as bandImagesData from '../../../public/band/images.json';
 
 @Injectable({
   providedIn: 'root',
 })
 export class BandGalleryService {
-  http = inject(HttpClient);
-  
-  getBandImages() {
-    return this.http.get<string[]>('./band/images.json');
+  getBandImages(): Observable<string[]> {
+    const images = ((bandImagesData as { default?: string[] }).default || bandImagesData) as string[];
+    return of(images);
   }
 }

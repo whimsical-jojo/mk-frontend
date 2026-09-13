@@ -1,13 +1,13 @@
-import { HttpClient } from '@angular/common/http';
-import { inject, Injectable } from '@angular/core';
+import { Injectable } from '@angular/core';
+import { from, Observable } from 'rxjs';
+import { fetchCollection } from '../utils/firebase-utils';
+import { db } from '../../firebase';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ReadingService {
-  http = inject(HttpClient);
-  
-  getReadings() {
-    return this.http.get<Reading[]>('./data/readings.json');
+  getReadings(): Observable<Reading[]> {
+    return from(fetchCollection<Reading>(db, 'readings'));
   }
 }

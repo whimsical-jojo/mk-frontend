@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, computed, inject } from '@angular/core';
 import { BibliographyService} from '../../services/bibliography-service';
 import { BookCard } from "../../components/book-card/book-card";
 import { toSignal } from '@angular/core/rxjs-interop';
@@ -14,7 +14,9 @@ export class Publications {
 
   books = toSignal(this.bookService.getBooks());
 
-  bibliography = toSignal(this.bookService.getBibliography());
+  private rawBibliography = toSignal(this.bookService.getBibliography(), { initialValue: [] });
+  bibliography = computed(() => [...this.rawBibliography()].sort((a, b) => b.year - a.year));
   
-  newsArticles = toSignal(this.bookService.getNewsArticles());
+  private rawNewsArticles = toSignal(this.bookService.getNewsArticles(), { initialValue: [] });
+  newsArticles = computed(() => [...this.rawNewsArticles()].sort((a, b) => b.year - a.year));
 }

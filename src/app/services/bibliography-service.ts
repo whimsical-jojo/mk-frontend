@@ -1,21 +1,36 @@
-import { HttpClient } from '@angular/common/http';
-import { inject, Injectable } from '@angular/core';
+import { Injectable } from '@angular/core';
+import { from, Observable } from 'rxjs';
+import { fetchCollection } from '../utils/firebase-utils';
+import { db } from '../../firebase';
 
 @Injectable({
   providedIn: 'root',
 })
 export class BibliographyService {
-  http = inject(HttpClient);
-  
-  getBooks() {
-    return this.http.get<Book[]>('./data/books.json');
+  /**
+   * Fetches the list of books from Cloud Firestore.
+   * 
+   * @returns An observable containing an array of books.
+   */
+  getBooks(): Observable<Book[]> {
+    return from(fetchCollection<Book>(db, 'books'));
   }
 
-  getBibliography() {
-    return this.http.get<BibliographyItem[]>('./data/bibliography.json');
+  /**
+   * Fetches the bibliography items from Cloud Firestore.
+   * 
+   * @returns An observable containing an array of bibliography items.
+   */
+  getBibliography(): Observable<BibliographyItem[]> {
+    return from(fetchCollection<BibliographyItem>(db, 'bibliography'));
   }
 
-  getNewsArticles() {
-    return this.http.get<BibliographyItem[]>('./data/journalism.json');
+  /**
+   * Fetches the journalism news articles from Cloud Firestore.
+   * 
+   * @returns An observable containing an array of journalism items.
+   */
+  getNewsArticles(): Observable<BibliographyItem[]> {
+    return from(fetchCollection<BibliographyItem>(db, 'newsArticles'));
   }
 }
